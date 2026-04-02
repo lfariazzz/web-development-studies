@@ -62,10 +62,35 @@
                 </fieldset>
                 <fieldset>
                     <legend>Endereço do Usuário</legend>
-                        Logradouro:
-                        Número:
-                        Estado:
-                        Cidade:
+                        <p>
+                            <label for="logradouro-input">Logradouro:</label>
+                            <input type="text" name="logradouro" id="logradouro-input" placeholder="Rua, Av, Trav..." size="10"/>
+                        </p>
+                        <p>
+                            <label for="numero_input">Número:</label>
+                            <input type="number" name="numero" id="numero_input" size="" placeholder="N da casa" min="0" max="999"/>
+                        </p>
+                        <p>
+                            <label for="estado_input">Estado:</label>
+                            <select name="estado" id="estado_input">
+                                <optgroup label="Nordeste">
+                                    <option value="CE">Ceará</option>
+                                </optgroup>
+                                <optgroup label="Sudeste">
+                                    <option value="SP">São Paulo</option>
+                                </optgroup>
+                                <optgroup label="Norte">
+                                    None
+                                </optgroup>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="cidade_input">Cidade:</label>
+                            <input type="text" name="cidade" id="cidade_input" placeholder="Sua Cidade" list="cidades">
+                            <datalist id="cidades">
+                                <option value="Crato">Crato</option>
+                            </datalist>
+                        </p>
                 </fieldset>
                 <fieldset>
                     <legend>Mensagem do Usuário</legend>
