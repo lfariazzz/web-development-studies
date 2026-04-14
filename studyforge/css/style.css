@@ -1,18 +1,45 @@
+/* Zona de Testes */
+
+
+
+/* Fim */
+
 body {
-    background: linear-gradient(white, blue);
+
+    background: linear-gradient(white, #ffffff, #6BABFF, #488EEA, #121CED, #0C1068);
 }
 
-*{
-    margin-right: 30px;
-    margin-left: 30px;
+section {
+    margin-right: 150px;
+    margin-left: 150px;
 }
 
-.card{
+li.card{
+    text-align: center;
     border: 2px solid black;
     border-radius: 10px;
     margin: 10px
 }
 
-li.card{
-    
+.card img{
+    padding: 10px 0px 0px 0px;
+}
+
+.card button{
+    color: white;
+    background: #0900ff;
+    margin-bottom: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+footer {
+    color:white;
+    background: linear-gradient(black, #000681, blue);
+    margin: -8px
+}
+
+a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
 }
